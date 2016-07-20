@@ -1,7 +1,7 @@
 {
   "name": "mutants-office-hours-server",
   "version": "0.1.0",
-  "description": "Server for mutants-office-hours app",
+  "description": "a node server to interact with firebase and send emails",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Bovojon/mutants-office-hours-server/issues"
   },
-  "homepage": "https://github.com/Bovojon/mutants-office-hours-server#readme"
+  "homepage": "https://github.com/Bovojon/mutants-office-hours-server#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.2.0"
+  }
 }
